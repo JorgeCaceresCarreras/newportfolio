@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE estructura
+  PUBLIC "-//OASIS//DTD DocBook XML//EN" "../dtds/docbookx.dtd">
+<estructura autoCompletar="si" curso="El envejecimiento" intro="ar01s01.html" resources="resources.xml" ext-resources="Ud01.v002-resources.xml" isbn="CNPSD">
+   <modulos>
+      <modulo nombre="El envejecimiento" directorio="CNPSD/Ud01.v002">
+         <herramientas>
+            <herramienta nombre="Ayuda" uniqid="tools01" class="icon-question-sign">
+               <pagina nombrefichero="ayuda.html" directorio="resources/tools/ayuda/"/>
+            </herramienta>
+            <herramienta nombre="Materiales" uniqid="tools02" class="icon-edit">
+               <pagina nombrefichero="index.html" directorio="resources/tools/extra-content/" dataXML="/Users/nacho/Dropbox/Trabajo/clientes/CaDMo/proyectos/id.xml.docbook.2014/input/outputresources.xml" part-ID="Ud01.v002"/>
+            </herramienta>
+         </herramientas>
+      </modulo>
+      <apartados>
+         <apartado directorio="." nombre="Portada" icon="icon-home" uniqid="home-sco">
+            <paginas>
+               <pagina nombrefichero="portada.html"/>
+            </paginas>
+         </apartado><!--article-->
+         <apartado directorio="." nombre="Objetivos" appendAll="true" uniqid="home-d0e8">
+            <paginas><!--abstract-->
+               <pagina nombrefichero="ar01s01.html"/>
+            </paginas>
+         </apartado><!--article-->
+         <apartado directorio="." nombre="Caso práctico inicial" appendAll="true" uniqid="case-d0e62">
+            <paginas><!--section-->
+               <pagina nombrefichero="ar02s01.html" nombre="Situación de partida"/>
+            </paginas>
+         </apartado><!--section-->
+         <apartado directorio="." uniqid="d0e121" nombre="1. Conceptos generales sobre el envejecimiento">
+            <paginas>
+               <pagina nombrefichero="ar03s01.html"/>
+            </paginas>
+         </apartado><!--section-->
+         <apartado directorio="." uniqid="d0e430" nombre="2. Aspectos biológicos del envejecimiento">
+            <paginas>
+               <pagina nombrefichero="ar03s02.html"/>
+               <Subapartado directorio="." nombre="Subapartados">
+                  <paginas>
+                     <pagina nombrefichero="ar03s02s01.html" nombre="2.1. Modificaciones provocadas por el envejecimiento"/>
+                  </paginas>
+               </Subapartado>
+            </paginas>
+         </apartado><!--section-->
+         <apartado directorio="." uniqid="d0e904" nombre="3. Aspectos psicosociales en el envejecimiento">
+            <paginas>
+               <pagina nombrefichero="ar03s03.html"/>
+            </paginas>
+         </apartado><!--section-->
+         <apartado directorio="." uniqid="d0e1081" nombre="4. Aspectos sobre sexualidad en la tercera edad">
+            <paginas>
+               <pagina nombrefichero="ar03s04.html"/>
+               <Subapartado directorio="." nombre="Subapartados">
+                  <paginas>
+                     <pagina nombrefichero="ar03s04s01.html" nombre="4.1. Factores que inciden en la sexualidad de los ancianos"/>
+                     <pagina nombrefichero="ar03s04s02.html" nombre="4.2. Intervención del técnico de sexualidad"/>
+                  </paginas>
+               </Subapartado>
+            </paginas>
+         </apartado><!--section-->
+         <apartado directorio="." uniqid="d0e1376" nombre="5. Necesidades específicas de atención en el envejecimiento">
+            <paginas>
+               <pagina nombrefichero="ar03s05.html"/>
+            </paginas>
+         </apartado><!--article-->
+         <apartado directorio="." nombre="Práctica profesional" appendAll="true" uniqid="practice-d0e1541">
+            <paginas><!--section-->
+               <pagina nombrefichero="ar05s01.html" nombre="Elaboración de una tabla comparativa de las diferentes generaciones en una unidad convivencial"/><!--section-->
+               <pagina nombrefichero="ar05s02.html" nombre="Realización de un trabajo práctico sobre el envejecimiento a partir de las conclusiones obtenidas tras la visualización de la película &#xA;        El curioso caso de Benjamin Button"/>
+            </paginas>
+         </apartado><!--article-->
+         <apartado directorio="." nombre="Actualidad laboral" appendAll="true" icon="icon-news" uniqid="news-d0e1654">
+            <paginas><!--section-->
+               <pagina nombrefichero="ar06s01.html" nombre="El envejecimiento"/>
+            </paginas>
+         </apartado><!--article-->
+         <apartado directorio="." nombre="En resumen" appendAll="true" uniqid="summary-d0e1727">
+            <paginas><!--abstract-->
+               <pagina nombrefichero="ar07s01.html"/>
+            </paginas>
+         </apartado>
+         <apartado directorio="." nombre="Evalúa tus conocimientos" assessment="true" icon="icon-assessment" uniqid="d0e1537">
+            <paginas>
+               <pagina nombrefichero="ar04.html"/>
+            </paginas>
+         </apartado>
+      </apartados>
+   </modulos>
+</estructura>

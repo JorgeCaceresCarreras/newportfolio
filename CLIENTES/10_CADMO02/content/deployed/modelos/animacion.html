@@ -1,0 +1,62 @@
+<section class="img-background" style="height: auto; background: url('content/deployed/modelos/media/fondo3.jpg') no-repeat fixed;" data-stellar-background-ratio="0.1">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Animación swf</h2>
+        <p>En este modelo se muestra el contenido de una animación FLASH o su correspondiente swiffy cuando el dispositivo no soporte FLASH.</p>
+        <div class="animacion-teorica">
+          <!--[if !(IE 8)]>-->
+          <script type="text/javascript" src="content/deployed/modelos/media/animacion.js"></script>
+          <!--<![endif]-->
+          <div id="swiffycontainer" style="width: 100%; height: 400px"></div>  
+          <div>
+            <object id="obj_animacion" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="400px" align="middle">
+            <param name="movie" value="content/deployed/modelos/media/animacion.swf">
+            <param name="quality" value="high">
+            <param name="bgcolor" value="#ffffff">
+            <param name="play" value="true">
+            <param name="loop" value="true">
+            <param name="wmode" value="transparent">
+            <param name="scale" value="showall">
+            <param name="menu" value="false">
+            <param name="devicefont" value="false">
+            <param name="salign" value="">
+            <param name="allowScriptAccess" value="sameDomain">
+            <!--[if !IE]>-->
+            <object type="application/x-shockwave-flash" data="content/deployed/modelos/media/animacion.swf" width="100%" height="400px">
+            <param name="movie" value="content/deployed/modelos/media/animacion.swf">
+            <param name="quality" value="high">
+            <param name="bgcolor" value="#ffffff">
+            <param name="play" value="true">
+            <param name="loop" value="true">
+            <param name="wmode" value="transparent">
+            <param name="scale" value="showall">
+            <param name="menu" value="false">
+            <param name="devicefont" value="false">
+            <param name="salign" value="">
+            <param name="allowScriptAccess" value="sameDomain">
+            <!--<![endif]-->
+            <div>
+              <!--[if !(lte IE 8)]>-->
+              <script type="text/javascript">
+                var stage = new swiffy.Stage(document.getElementById('swiffycontainer'),swiffyobject);
+                stage.setBackground(null);
+                stage.start();
+              </script>
+              <!--<![endif]-->
+              <!--[if (lte IE 8)]>-->
+              <p class="flash_install_message" style="display:none">Debe instalarse el plugin de FLASH. 
+                <a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"></a>
+              </p>
+              <!--<![endif]-->
+            </div>
+            <!--[if !IE]>-->
+            </object>
+              <!--<![endif]-->
+            </object>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

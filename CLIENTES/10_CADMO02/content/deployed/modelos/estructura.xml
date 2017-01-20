@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<estructura>
+  <modulos>
+    <modulo nombre="Nombre del curso" directorio="templates">
+      <herramientas>
+        <herramienta nombre="Recursos" uniqid="tools02" class="fa fa-book">
+          <pagina pathentero="/../../resources/index.html" nombre="resources" nombrefichero="index.html" lData="XML-data=content/deployed/modelos/resources/resources.xml&amp;"/>
+        </herramienta>
+      </herramientas>
+    </modulo>
+    <apartados>
+      <apartado directorio="." nombre="Carousel" uniqid="carousel">
+        <paginas>
+          <pagina nombrefichero="carousel.html"/>
+        </paginas>
+      </apartado>
+      <apartado directorio="." nombre="Player" uniqid="player">
+        <paginas>
+          <pagina nombrefichero="video_player.html"/>
+        </paginas>
+      </apartado>
+    
+      <apartado directorio="." nombre="Presentacion" uniqid="Presentacion">
+        <paginas>
+          <pagina nombrefichero="captivate.html"/>
+        </paginas>
+      </apartado>
+	    <apartado directorio="." nombre="Background video" uniqid="backgroundvideo">
+        <paginas>
+          <pagina nombrefichero="background_video.html"/>
+        </paginas>
+      </apartado>
+     
+    </apartados>
+  </modulos>
+</estructura>

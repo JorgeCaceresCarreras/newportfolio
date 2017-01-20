@@ -1,0 +1,182 @@
+.borde-timeline {
+  background-color: white;
+  border: 5px solid #f1f1f1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  padding-bottom: 0;
+  margin-bottom: 15px;
+}
+
+.timelineMargin {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.timelineMargin ul .listaNumerica {
+  list-style-type: decimal !important;
+}
+.timelineMargin ul .listaLetras {
+  list-style-type: lower-alpha !important;
+}
+.timelineMargin ul .listaNumerosRomanos {
+  list-style-type: lower-roman !important;
+}
+.timelineMargin ul .listaCuadrados {
+  list-style-type: square !important;
+}
+.timelineMargin ul .listaCirculos {
+  list-style-type: circle !important;
+}
+.timelineMargin ul .listaDisco{
+	list-style-type: disc !important;	
+}
+.timelineMargin li{
+	width: 100% !important;
+}
+
+#dates li {
+	list-style: none;
+	float: left;
+	width: 130px;
+	height: 50px;
+	font-size: 0.9em;
+	text-align: center;
+	background: url('../images/biggerdot.png') center bottom no-repeat;
+}
+				
+#dates a {
+	line-height: 1em;
+	padding-bottom: 10px;
+}
+
+#dates .selected {
+	font-size: 1.5em;
+}
+		
+#issues {
+	width: 749px;
+	height: 350px;
+	overflow: hidden;
+}	
+			
+#issues li {
+	width: 749px;
+	list-style: none;
+	float: left;
+}
+
+#issues li h1 {
+	font-size: 2em;
+	margin: 20px 0;
+}
+
+#issues li p {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 22px;
+	text-align: justify;
+}
+		
+#next,
+#prev {
+	position: absolute;
+	top: 0;
+	font-size: 70px;
+	top: 170px;
+	width: 22px;
+	height: 38px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	color: red;
+}
+
+#next:hover{
+	background-image: url('../images/next_roll.png');
+}
+
+#prev:hover {
+	background-image: url('../images/prev_roll.png');
+}
+#next {
+	right: 0;
+	background-image: url('../images/next.png');
+}
+#prev {
+	left: 0;
+	background-image: url('../images/prev.png');
+}
+
+#next.disabled,
+#prev.disabled {
+	opacity: 0.2;
+}
+
+@media (min-width: 1200px) {	
+	#timeline {
+		width: 850px;
+		height: 100%;
+		overflow: hidden;
+		/*margin: 100px auto;*/
+		margin: 30px auto;
+		margin-bottom: 0px;
+		position: relative;
+		background: url('../images/dot.gif') left 45px repeat-x;
+	}
+	#dates {
+		width: 850px;
+		height: 60px;
+		overflow: hidden;
+	}
+		
+	#issues {
+		width: 850px;
+		height: 100%;
+		/*height: 350px;*/
+		overflow: hidden;
+	}	
+		
+	#issues li {
+		width: 850px;
+		/*height: 350px;*/
+		height: 100%;
+		list-style: none;
+		float
+	}
+}
+
+/*@media (max-width: 1000px) {	*/
+@media (min-width: 768px) and (max-width: 1199px) {
+	#timeline {
+		width: 650px;
+		height: 100%;
+		overflow: hidden;
+		margin: 30px auto;
+		margin-bottom: 0px;
+		position: relative;
+		background: url('../images/dot.gif') left 45px repeat-x;
+	}
+		
+	#dates {
+		width: 650px;
+		height: 60px;
+		overflow: hidden;
+	}
+		
+	#issues {
+		width: 650px;
+		height: 100%;
+		overflow: hidden;
+	}	
+	
+	#issues li {
+		width: 650px;
+		height: 100%;
+		list-style: none;
+		float: left;
+	}
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estructura interfacelng="es"><modulos><modulo nombre="Campus Puente Nuevo" intentosEvaluacion="" numero="" porcentajeEvaluacion="" tipoEvaluacion="" directorio="templates"/><apartados>
+      <apartado directorio="." nombre="Campus Puente Nuevo" uniqid="0001">
+        <paginas>
+          <pagina nombrefichero="0001.html"/>
+        </paginas>
+      </apartado>
+      <apartado directorio="." nombre="Un lugar único" uniqid="0002">
+        <paginas>
+          <pagina nombrefichero="0002.html"/>
+        </paginas>
+      </apartado>
+      <apartado directorio="." nombre="Alojamiento" uniqid="0003">
+        <paginas>
+          <pagina nombrefichero="0003.html"/>
+        </paginas>
+      </apartado>
+      <apartado directorio="." nombre="Restauración" uniqid="0004">
+        <paginas>
+          <pagina nombrefichero="0004.html"/>
+        </paginas>
+      </apartado>
+      <apartado directorio="." nombre="Instalaciones deportivas y servicios" uniqid="0005">
+        <paginas>
+          <pagina nombrefichero="0005.html"/>
+        </paginas>
+      </apartado>
+	   <apartado directorio="." nombre="Marco natural" uniqid="0006">
+        <paginas>
+          <pagina nombrefichero="0006.html"/>
+        </paginas>
+      </apartado>
+      <apartado directorio="." nombre="Visitanos" uniqid="0007">
+        <paginas>
+          <pagina nombrefichero="0007.html"/>
+        </paginas>
+      </apartado>
+      <apartado directorio="." nombre="Plano interactivo" uniqid="0008">
+        <paginas>
+          <pagina nombrefichero="0008.html"/>
+        </paginas>
+      </apartado>
+      <apartado directorio="." nombre="Contacto" uniqid="0009">
+        <paginas>
+          <pagina nombrefichero="0009.html"/>
+        </paginas>
+      </apartado>
+    </apartados></modulos></estructura>

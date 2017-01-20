@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+body {
+  background: gray;
+  /*background-image: url('../img/ditel_bayer.png'); */
+  background-image: url('../img/fondo.png');
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+.ispring-responsive {
+  position: relative;
+  border: none;
+  overflow: hidden;
+}
+.ispring-responsive iframe,
+.ispring-responsive object,
+.ispring-responsive embed {
+  width: 0;
+  height: 0;
+  border: none;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  transition: all .5s ease;
+}
+.checkbox:checked ~ .nav {
+  left: 0;
+  position: fixed;
+  bottom: 0;
+}
+#menu-toogle {
+  display: none;
+}
+.menu-toogle {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  bottom: 0px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 23px;
+  width: 50px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.menu-toogle .fa {
+  line-height: 42px;
+  height: 42px;
+}
+.menu-toogle:hover {
+  background-color: #848484;
+}
+.nav {
+  position: absolute;
+  width: 300px;
+  height: 70%;
+  bottom: -80%;
+  left: 0;
+  transition: all .2s ease;
+  background-color: #5e5e5e;
+  opacity: 0.98;
+  filter: alpha(opacity=98);
+  overflow: hidden;
+  z-index: 8;
+  padding-bottom: 60px;
+}
+.nav .nav-content {
+  height: 100%;
+  overflow-y: auto;
+}
+.nav .childrenContainer {
+  margin-left: 30px;
+  display: none;
+}
+.nav .linkcontainer {
+  position: relative;
+}
+.nav .linkcontainer .down {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  z-index: 10;
+  color: #dddddd;
+  font-size: 20px;
+}
+.nav__item {
+  display: block;
+  width: 96%;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  background-color: transparent;
+  text-align: left;
+  color: #dddddd;
+  cursor: pointer;
+}
+.nav__item:hover {
+  background-color: #2b2b2b;
+}
+.thumbSlide {
+  text-align: center;
+}
+.thumbSlide img {
+  width: 150px;
+}
+.nav .thumbSlide img {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.controlPanel {
+  height: 50px;
+  background-color: #777777;
+  position: relative;
+  z-index: 9;
+}
+.controlPanel .slideProgressTooltip {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: -173px;
+  display: none;
+}
+.controlPanel .slideProgressTooltip .contentTooltip {
+  width: 200px;
+  height: 150px;
+  background: #094fa4;
+  border-radius: 0px;
+}
+.controlPanel .slideProgressTooltip .contentTooltip .titleSlide {
+  padding-top: 8px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+.controlPanel .slideProgressTooltip .arrowTooltip {
+  position: absolute;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #094fa4;
+}
+.controlPanel .progressBar {
+  height: 8px;
+  background-color: #aaaaaa;
+  position: relative;
+}
+.controlPanel .progressBar .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 8px;
+  width: 0;
+  transition: all .5s ease;
+  opacity: 0.2;
+  background: black !important;
+  z-index: 2;
+}
+.controlPanel .progressBar .statusBar {
+  position: absolute;
+  height: 8px;
+  top: 0;
+  left: 0;
+}
+.controlPanel .progressBar .statusBar.incompleted {
+  background-color: #86c82d;
+}
+.controlPanel .progressBar .statusBar.completed {
+  background-color: #207ff3;
+}
+.controlPanel .buttons {
+  position: relative;
+  height: 42px;
+}
+.controlPanel .buttons > div {
+  position: absolute;
+}
+.controlPanel .buttons .button {
+  line-height: 42px;
+  height: 42px;
+  font-size: 23px;
+  color: #dddddd;
+  cursor: pointer;
+}
+.controlPanel .buttons .button:hover {
+  color: #094fa4;
+}
+.controlPanel .buttons .fa {
+  line-height: 38px;
+}
+.controlPanel .buttons .fullScreen {
+  right: 2%;
+  display: none;
+}
+.controlPanel .buttons .left-buttons {
+  left: 2%;
+}
+.controlPanel .buttons .pagination {
+  left: 50%;
+  width: 150px;
+  margin-left: -75px;
+  text-align: center;
+  line-height: 42px;
+  height: 42px;
+  display: none;
+}
+.controlPanel .buttons .pagination .current,
+.controlPanel .buttons .pagination .separator,
+.controlPanel .buttons .pagination .total {
+  line-height: 42px;
+  height: 42px;
+  font-size: 20px;
+  color: #dddddd;
+}

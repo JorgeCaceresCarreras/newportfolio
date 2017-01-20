@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<presentation title="mary_key_DIR_20160322" width="720.0000000" height="472.0000000" thmbWidth="0.0000000" thmbHeight="0.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2007" type="compound" hasExternalAudio="0" uid="{51E39842-66EC-49AD-9B4B-4B87CA4434E7}">
+	<presenters/>
+	<references/>
+	<soundAssets/>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets/>
+	<playlists/>
+	<narration/>
+	<settings>
+		<navigation>
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" syncWithVideoNarration="1" enableVideoControl="1" resumePresentationPlayback="never"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="" titleNormalized="" src="slide1.swf" size="565136" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Experiencia Nuevas Directoras
+Tu carrera en el siguiente nivel</text>
+		</slide>
+		<slide index="1" title="" titleNormalized="" src="slide2.swf" size="253139" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>¿QUIÉN PUEDE VIVIR UNA EXPERIENCIA COMO DIRECTORA?
+
+Sofía
+Nueva Directora 38 años
+Lleva 4 años trabajando en Mary Kay. Tiene un excelente equipo de consultoras activas, pero ha visto que sus bonificaciones se han mantenido estables desde hace 5 meses y por más que ella se enfoca en la iniciación sus ganancias no crecen; y ha visto que los grupos de compra de sus consultoras permanecen sin cambio. 
+
+Este año, ha decidido hacer un cambio en su liderazgo para impulsar su carrera y recibir las bonificaciones que ofrece Mary Kay por grupo de compra y volumen que de momento no ha recibido.</text>
+		</slide>
+		<slide index="2" title="" titleNormalized="" src="slide3.swf" size="425959" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>OBJETIVOS DEL PROYECTO
+
+Desarrollar en las Directoras bases sólidas de habilidades y competencias, y proporcionarles un plan de acción para sus primeros meses como Directoras que las lleven a aumentar sus ingresos. 
+Experiencia Nuevas Directoras</text>
+		</slide>
+		<slide index="3" title="" titleNormalized="" src="slide4.swf" size="394690" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Bienvenida a la experiencia Nuevas Directoras de Mary Kay. Mi nombre es Laura y voy a acompañarte durante todo este aprendizaje. ¡Estás a solo un clic de alcanzar tus metas!
+Acceder a la experiencia
+Nuevas Directoras
+Laura será la coach que acompañará a las Nuevas Directoras en su proceso de afianzamiento, apoyándolas en su avance, brindando su ayuda, animándolas a continuar en los momentos más duros y celebrando con ellas sus éxitos.
+
+Como ellas, Laura también tuvo sus comienzos como Nueva Directora y conoce muy bien los retos a los que se enfrenta para lograr sus objetivos.
+NUESTRA COACH
+
+</text>
+		</slide>
+		<slide index="4" title="" titleNormalized="" src="slide5.swf" size="563436" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>EXPERIENCIA NUEVAS DIRECTORAS
+Módulo 1
+Módulo 2
+Módulo 3
+Módulo 4
+Actividad1
+Actividad 2
+Actividad 3
+Reto del 
+mes 1
+Actividad1
+Actividad 2
+Actividad 3
+Reto del 
+mes 2
+Hasta 6 meses
+Semana 1
+Semana 2
+Semana 3
+Semana 4
+El itinerario para las Nuevas Directoras, se configura en módulos construidos en torno a Unidades de Aprendizaje que se basan en actividades semanales y un reto mensual. La superación de este reto será condición para acceder al siguiente módulo.
+ITINERARIO DE LA EXPERENCIA
+
+
+Módulo 5
+Módulo 6</text>
+		</slide>
+		<slide index="5" title="" titleNormalized="" src="slide6.swf" size="442842" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Objetivos de aprendizaje de la unidad.
+MODELO DE UNIDAD DE APRENDIZAJE
+
+
+1
+2
+Enunciado de la actividad.
+Yo te apoyaré y guiaré para la consecución de los trofeos. Además, te indicaré acciones para incrementar los trofeos de formación conseguidos.</text>
+		</slide>
+		<slide index="6" title="" titleNormalized="" src="slide7.swf" size="490453" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>CONCLUSIÓN
+
+
+No te limites a ti mismo. Muchas personas se limitan a lo que piensan que pueden hacer. Puedes ir tan lejos como tu mente te permita. Puedes conseguir lo que creas, recuérdalo.
+Estoy convencida que el arte de liderar se puede aprender y, más aún, dominar.
+ (Mary Kay Ash)
+
+ (Mary Kay Ash)
+</text>
+		</slide>
+	</slides>
+</presentation>
